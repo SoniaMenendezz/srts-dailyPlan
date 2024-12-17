@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Carga del JSON desde el archivo local
-with open('C:/SONIA/4 ANO UNIVERSIDAD/Proyectos/datosPaciente.json', 'r', encoding='utf-8') as archivo:
+with open('./datosPaciente.json', 'r', encoding='utf-8') as archivo:
     datos = json.load(archivo)
 
 lista = []

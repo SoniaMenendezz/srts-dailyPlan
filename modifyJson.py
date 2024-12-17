@@ -2,7 +2,7 @@ import json
 import numpy as np
 
 # Carga del JSON desde el archivo local
-with open('C:/SONIA/4 ANO UNIVERSIDAD/Proyectos/datosPaciente.json', 'r', encoding='utf-8') as archivo:
+with open('./datosPaciente.json', 'r', encoding='utf-8') as archivo:
     datos = json.load(archivo)
 
 n_dias = 13  # Número de días de rehabilitación

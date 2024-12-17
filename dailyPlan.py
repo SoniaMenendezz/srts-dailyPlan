@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import random
 
 # Ruta al archivo JSON
-ruta_archivo = 'C:/SONIA/4 ANO UNIVERSIDAD/Proyectos/datosPaciente.json'    #modificarlo a la ruta correspondiente
+ruta_archivo = './datosPaciente.json'    
 
 # Cargar el archivo JSON
 with open(ruta_archivo, 'r', encoding='utf-8') as file:
